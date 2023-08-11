@@ -1,4 +1,4 @@
-# Opentelemetry
+# Opentelemetry Playground
 
 **TODO: Add description**
 
@@ -10,7 +10,7 @@ by adding `opentelemetry` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:opentelemetry, "~> 0.1.0"}
+    {:playground, "~> 0.1.0"}
   ]
 end
 ```
