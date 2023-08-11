@@ -1,6 +1,7 @@
 import Config
 
 config :opentelemetry,
+  resource: [service: %{name: "Playground"}],
   span_process: :batch,
   traces_exporter: :otlp
 

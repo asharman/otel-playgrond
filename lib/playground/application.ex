@@ -16,7 +16,9 @@ defmodule Playground.Application do
             Process.sleep(5_000)
             IO.puts("Task Ended")
           end
-        end, [schedule: 1_000]}}
+        end, [schedule: 1_000]}},
+      PingServer,
+      PongServer
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

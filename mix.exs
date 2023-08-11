@@ -19,7 +19,7 @@ defmodule Playground.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:opentelemetry, :logger],
+      extra_applications: [:opentelemetry_exporter, :opentelemetry, :logger],
       mod: {Playground.Application, []}
     ]
   end
